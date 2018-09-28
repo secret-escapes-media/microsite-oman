@@ -33,7 +33,7 @@
   &__content {
     color: $grey-dark;
     background-color: $white;
-    padding: $s2 $s3;
+    padding: $s1 $s3 $s3;
   }
   &__close {
     position: absolute;
@@ -125,7 +125,7 @@
   }
   @include bp($lg){
     &__content {
-      padding: $s4 $s6;
+      padding: $s0 $s6 $s4;
     }
   };
 }

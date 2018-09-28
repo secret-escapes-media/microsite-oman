@@ -1,1 +1,109 @@
 // general styles for the project that wouldn't be a reuseable component
+
+
+
+/************ BG - Map **********/
+
+.bv-map {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 80%;
+  min-height: 450px;
+  max-height: 700px;
+  color: $white;
+
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content;
+    background-color: $grey-dark;
+    @include background-attributes;
+    // &:before {
+    //   // optional colour overlay on bg image
+    //   content: '';
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   background-color: rgba($black,.15);
+    // }
+  }
+  &__nav {
+    // optional container for navigation include
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: $z-nav;
+    &--top {
+      top: 0;
+      bottom: auto;
+    }
+  }
+}
+
+
+.bv-bg-img {
+  display: block;
+  padding-top: 66.666666666667%;
+  position: relative;
+  @include background-attributes();
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+  }
+  &-- { @include ratios; }
+
+  //background-color: $grey-dark;
+  @include transition;
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-overlay;
+    cursor: pointer;
+  }
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: $z-content-upper;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    text-align: center;
+    @include page-padding;
+  }
+}
+
+
+/********* Fonts *********/
+
+.bv-lineheight{
+  line-height: 1.3;
+
+  &--md  { line-height: 1.2;
+    padding-bottom: 3px; }
+}
+
+
+/******** Colours *********/
+
+.bv-bg-colour1{ background-color: rgba(51,1,112,1)!important;}
+
+.bv-bg-colour2{ background-color: rgba(0,96,114,1)!important;}
+
+.bv-text-colour1{ color: rgba(51,1,112,1)!important;}
+
+.bv-text-colour2{ color: rgba(0,96,114,1)!important;}

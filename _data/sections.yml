@@ -1,104 +1,93 @@
 - id: one
-  title: Section one
-  nav-title: One
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+  title: "Facettenreichtum erleben"
+  nav-title: Muscat
+  img: bg1
+  description: "Die Hauptstadt liegt an der nördlichen Spitze des Landes direkt am glitzernden Golf von Oman und ist im Hinterland eingerahmt Wüste und Gebirge. In der Innenstadt von Muscat erwarten Sie prachtvolle Sultanspaläste und Moscheen, traditionelle Bauten, lebhafte Souks sowie moderne Architektur und exquisite Einkaufsmöglichkeiten. Genießen Sie eine Vorstellung im Royal Opera House oder reisen Sie im Nationalmuseum zurück in die Vergangenheit – tauchen Sie ein, in Ihr Oman-Abenteuer."
 
   pois:
 
-    title: points of interest title
+    title:
     items:
 
-      - id: one-first-poi
-        title: One First POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight1
+        title: Sultan Qaboos-Moschee
+        description-short: "Auf polierten Marmorplatten steht mitten in Muscat die majestätische Sultan"
+        description: "Auf polierten Marmorplatten steht mitten in Muscat die majestätische Sultan Qaboos-Moschee, erbaut aus strahlendem Sandstein mit runden Kuppeln und schmuckvollen Ornamenten. Sie ist eine der größten Moscheen weltweit und auch für nicht muslimische Besucher zugänglich. Im Inneren setzen sich tausende bunte Mosaikstücke zu einem farbenprächtigen Gesamtbild aus Türkis- und Blautönen zusammen und der Kronleuchter im Gebetssaal ist mit unzähligen funkelnden Kristallen besetzt."
 
-      - id: one-second-poi
-        title: One Second POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight2
+        title: Royal Opera House
+        description-short: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der Musik"
+        description: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der Musik geschaffen. Hier treffen sich orientalischer Prunk aus 1001 Nacht mit moderner, gradliniger Architektur, technischen Raffinessen und unglaublicher Akustik. 2011 eröffnet durch Plácido Domingo, werden hier täglich weltberühmte Theaterstücke, Opern, Musicals, Ballettstücke und Konzerte aufgeführt. In der angeschlossenen Opera Galeria können Sie vor Ihrem Besuch durch luxuriöse Läden und vorzügliche Restaurants flanieren."
 
-      - id: one-third-poi
-        title: One Third POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight3
+        title: Alt-Muscat & Al Alam-Palast
+        description-short: "Das Zentrum der Altstadt von Muscat bildet der Al Alam Palast, der 1972"
+        description: "Das Zentrum der Altstadt von Muscat bildet der Al Alam Palast, der 1972, veranlasst von Sultan Qaboos bin Said, zum Regierungsgebäude umgebaut wurde. Eine gepflegte Parkanlage umschließt das Gebäude und lädt Gäste zu ausgedehnten Spaziergängen ein. Die historischen Festungen Fort Al Jalali und Fort Mirani stehen wie Wächter zu beiden Seiten des Palastes und wachen, mit Blick auf den Golf von Oman, über den Hafen der Stadt."
 
-      - id: one-fourth-poi
-        title: One Fourth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight4
+        title: Souk von Muttrah
+        description-short: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich"
+        description: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich nach Gewürzen duftet. Begeben Sie sich zwischen Stoffen, Schmuck, kleinen Souvenirs und lokalen Produkten auf Schatzsuche und erfreuen Sie sich am geschäftigen Treiben. Unweit vom Souk, an der Uferpromenade Corniche, liegt der Fischmarkt der Stadt. Dort bieten Fischer direkt aus dem Ozean, ihre fangfrischen Waren feil und Gastronomen sowie Einwohner erwerben Fisch und Meeresfrüchte für ihren alltäglichen Bedarf."
 
-      - id: one-fifth-poi
-        title: One Fifth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight5
+        title: Nationalmuseum
+        description-short: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie"
+        description: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie zahlreiche Museen und Ausstellungen, wo Sie sich über die Geschichte und die Kultur des Landes informieren können. Besuchen Sie beispielsweise das 2016 eröffnete Nationalmuseum und wandeln Sie auf den Spuren ehemaliger Sultane und ihrer Herrschaftsgeschichte, zurück bis in die Zeit der ersten Besiedlungen. Im Kindermuseum hingegen können klein und groß interaktiv optische Täuschungen und biologische Exponate erforschen."
+
+      - id: highlight6
+        title: " Daymaniyat Inseln, Wadi Al Arbeieen, Strand Qurum"
+        description-short: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der"
+        description: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der Schönheit des Omans verzaubern. Muscat liegt umgeben von traumhaften Stränden und Naturreservarten wie den Daymaniyat Inseln, wo Sie Meeresschildkröten und seltene Fischarten vor bunten Korallenriffen begrüßen. Der Qurum Beach wartet mit gemütlichen Strandbars und Cafés und das Wadi Al Arbeieen ist ein malerischer Flusslauf östlich flankiert vom imposanten, sandfarbenen Hadschar-Gebirge."
 
 
 
 ################################################################################
-
 
 
 - id: two
-  title: Section Two
-  nav-title: Two
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+  title: "Salalah: Badeparadies & Kulturstadt"
+  nav-title: Salalah
+  img: bg2
+  description: Gemächlich kauende Dromedare, frischer Saft aus Kokosnüssen, türkises Meer und traumhafte Sandstrände, mit einem Hauch von Karibik – das erwartet Sie in der Küstenstadt Salalah im Südwesten des Omans. Eine exotische Naturlandschaft, traditionelle Märkte und authentische Ursprünglichkeit machen Salalah zu einem Ziel für Entdecker und Genießer. Hier versteckt sich eine perfekte Komposition aus Badeparadies und Kulturstadt, die als Mittelpunkt der Weihrauchstraße einst zu den wichtigsten Handelszentren des Landes gehörte.
 
   pois:
 
-    title: points of interest title
+    title:
     items:
 
-      - id: two-first-poi
-        title: Two First POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight7
+        title: Strände, Baden, Tauchen
+        description-short: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse"
+        description: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse umschließen den Oman. Besonders im Süden sind die exotischen Lagunen und farbenprächtigen Korallenriffe an Schönheit kaum zu übertreffen. In den Regionen um Salalah und Dhofar verbreiten Kokusnussplantagen, Palmen, glasklares Wasser und goldener Sand erholsames Urlaubsflair. Wassersport, Tauchgänge oder Bootsausflüge sind dabei ideale Aktivitäten, um die bunte Welt vor der Küste des Omans zu entdecken."
 
-      - id: two-second-poi
-        title: Two Second POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight8
+        title: Weihrauch
+        description-short: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße"
+        description: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße durchzogen, die zu Zeiten der Römer die Verbindung der Arabischen Halbinsel zum Mittelmeer war. Hier wird der vielseitig einsetzbare Harz noch heute gewonnen und in unzählige Länder der Welt exportiert. Einmal im Jahr, im Monat September, findet in Salalah ein großer Markt statt, wo ausschließlich Weihrauch und damit gefertigte Produkte wie ätherische Öle angeboten und verkauft werden."
 
-      - id: two-third-poi
-        title: Two Third POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight9
+        title: Tor zur Rub al-Khali
+        description-short: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten"
+        description: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten Sandwüste der Welt – bezeichnet. Sie ist ein guter Startpunkt, um die teilweise unberührte Sandlandschaft zu erkunden. Nizwa selbst ist von einer grünen Oase und einer majestätischen Berglandschaft umgeben. Über der Stadt auf einem Hügel, thront eine mächtige Festung aus dem 17. Jahrhundert, die neben den mit Ornamenten verzierten Gebäuden und einem der größten Souks des Landes mehr als sehenswert ist."
 
-      - id: two-fourth-poi
-        title: Two Fourth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-
-      - id: two-fifth-poi
-        title: Two Fifth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight10
+        title: Mirbat
+        description-short: "Im Süden, nur etwa eine Autostunde von Salalah entfernt, finden Sie die"
+        description: "Im Süden, nur etwa eine Autostunde von Salalah entfernt, finden Sie die kleine Hafen- und ehemalige Handelsstadt Mirbat. Inmitten der Weihrauchstraße gelegen, können hier noch prächtige Handelshäuser aus den Hochzeiten des Exports bewundert werden. Außerdem gibt es historische Kulturstätten zu entdecken, wie das Grabmahl des Heiligen Bin Ali, der rund 1161 in Mirbat verstarb. Die schönen Buchten und Strände der Stadt sowie die Tauchreviere bilden eine idyllische Basis für eine erholsame Auszeit."
 
 
 
 ################################################################################
+
 
 
 
 - id: three
-  title: Section Three
-  nav-title: Three
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+  title: "Kombination aus Bergen & Meer"
+  nav-title: Musandam
+  img: bg3
+  description: "Extrem facettenreich zeigt sich auch die Halbinsel Musandam. Hier ragen schroffe Felsen aus dem tiefblauen Meer empor und bilden Höhlen, Fjorde und Buchten, die es zu erkunden gilt. Fahren Sie im Winter mit dem Seekajak an den Fuß der Klippen und wandern Sie durch die zerklüftete Landschaft und die Flussläufe des Wadi Bih. Auf diesen Touren schlagen Sie ihr Lager an wilden Stränden auf und haben die Möglichkeit in den versteckten Buchten Meeresschildkröten und Delfine zu beobachten. Oder Sie gehen an Bord eines traditionellen Dhaus und genießen einen authentischen Ausflug auf einem der ursprünglichen Holzboote."
 
-  pois:
-
-    title: points of interest title
-    items:
-
-      - id: three-first-poi
-        title: Three First POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-
-      - id: three-second-poi
-        title: Three Second POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-
-      - id: three-third-poi
-        title: Three Third POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-
-      - id: three-fourth-poi
-        title: Three Fourth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
-
-      - id: three-fifth-poi
-        title: Three Fifth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
 
 
 
@@ -107,31 +96,37 @@
 
 
 - id: four
-  title: Section Four
-  nav-title: Four
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum. Consequuntur recusandae nemo, magni excepturi laborum nihil aperiam est! Temporibus optio unde voluptates odio aliquam rem necessitatibus placeat, maxime, explicabo reiciendis, eos. Incidunt sed nisi, alias deleniti aut porro corporis quasi possimus nulla nostrum eveniet sunt eos dolore eligendi fugit, iste quisquam soluta rem veritatis perferendis fugiat esse.
+  title: "Hadschar Gebirge: Abenteuer & Zauber der Natur"
+  nav-title: Hadschar Gebirge
+  img: bg4
+  description: "Im Hadschar-Gebirge befinden sich die höchsten Gipfel im Oman, zahlreiche Wadis, Schluchten und Täler, Höhlen und grüne Oasen. Erkunden Sie aktiv Ihre Umgebung beim Klettern, Canyoning oder Wandern oder begeben Sie sich bei einer Offroad-Tour auf ein Abenteuer abseits von Straßen und Asphalt. Blicken Sie über das phänomenale Naturschauspiel des omanischen Grand Canyons und tauchen Sie ab in glitzerndes Wasser. Im Hadschar-Gebirge warten Nervenkitzel und majestätische Schönheit auf Sie."
 
   pois:
 
-    title: points of interest title
+    title:
     items:
 
-      - id: four-first-poi
-        title: Four First POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight11
+        title: Jebel al Shams
+        description-short: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt"
+        description: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt im Oman. Die Spitze kann auch ohne Bergsteigererfahrung erklommen werden und bietet spektakuläre Ausblicke auf die umliegende, zerklüftete Landschaft. Wer den Berg nicht hochwanden möchte, kann ihn auch in etwa 3 Stunden umrunden und passiert dabei unter anderem ein verlassenes Bergdorf und einen sprudelnden Wasserfall."
 
-      - id: four-second-poi
-        title: Four Second POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight12
+        title: Wadi Nakhar
+        description-short: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die"
+        description: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die sogenannten Wadis, zu den landschaftlichen Höhepunkten. Je nachdem, ob Sie mit Wasser gefüllt sind, verwandeln sie sich in tropische Oasen, türkise Naturpools oder einsame Wüstentäler mit steilen Felsklippen. Besonders sehenswert ist das Wadi Nakhar, was auch Grand Canyon des Omans genannt wird. Die Plateaus über der rund 1000 m tiefen Schlucht eröffnen beeindruckende Panoramen über die Weiten des Hadschar-Gebirges."
 
-      - id: four-third-poi
-        title: Four Third POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight13
+        title: Canyoning
+        description-short: "Beim Canyoning erklimmt man Steilwände, watet durch Bachläufe und klettert"
+        description: "Beim Canyoning erklimmt man Steilwände, watet durch Bachläufe und klettert über Gestein, bis man von Felsvorsprüngen aus verschiedenen Höhen in natürliche Wasserbecken springt. Es empfiehlt sich nur an organisieren Canyoning-Touren teilzunehmen, beispielsweise im Wadi Bani Awf. Hier befindet sich der Snake Canyon, wo sie über Seilbrücken balancieren und wilde Fjorde durchqueren, bevor Sie mit einem Sprung ins kühle Wasser abtauchen."
 
-      - id: four-fourth-poi
-        title: Four Fourth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight14
+        title: Offroad Touren
+        description-short: "Wirbelnder Staub, abenteuerliche Fahrten und gewundene Pfade"
+        description: "Wirbelnder Staub, abenteuerliche Fahrten und gewundene Pfade erwarten Sie auf einer Offroad-Tour durch die Berge. Tauschen Sie asphaltiere Straßen gegen sandige Wege, die zu kleinen Bergdörfern und den entlegensten Winkeln des Hadschar-Gebirges führen. Lernen Sie den Oman von seiner unberührten Seite kennen und kosten Sie die Schönheit von Granatapfelbäumen und prächtigen Rosenstauden in den Hügeln voll aus."
 
-      - id: four-fifth-poi
-        title: Four Fifth POI
-        description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos rerum optio est consequuntur ut quibusdam soluta molestias perspiciatis, dolor corrupti culpa labore aspernatur voluptates, ipsum laborum eligendi placeat et fugiat sit, quidem, totam iure ea ad velit! Aliquid, placeat, ea. Amet accusamus voluptas odit harum necessitatibus consequatur delectus autem rerum architecto voluptatum.
+      - id: highlight15
+        title: Klettern
+        description-short: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten"
+        description: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten Routen die Berge hochklettern und sich tief in Schluchten und Höhlen abseilen. Erleben Sie ultimativen Nervenkitzel in den Höhlen bei Al Hoota oder an den steilen Wänden des Jebel Shams. Begeben Sie sich auf sportliche Urlaubsabenteuer und schaffen Sie Erinnerungen, die Sie nie vergessen werden."

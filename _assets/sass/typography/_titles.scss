@@ -30,14 +30,17 @@
 .sub-title {
 
   // custom content headline
+  text-align: left;
+  margin-left: $s2;
   font-family: $font-title-01;
-  font-size: $s2; // default size
-  &--lg     { font-size: $s4; }
-  &--sm     { font-size: $s0; }
+  line-height: $s5;
+  font-size: $s4; // default size
+  &--lg     { font-size: $s6; }
+  &--sm     { font-size: $s2; }
   @include bp($lg){
-    font-size: $s3; // default size
-    &--lg     { font-size: $s5; }
-    &--sm     { font-size: $s1; }
+    font-size: $s5; // default size
+    &--lg     { font-size: $s7; }
+    &--sm     { font-size: $s3; }
   }
 
 }
@@ -75,12 +78,18 @@
 
 
 .banner-title {
-
+text-align: left;
   // custom banner headline
-  font-family: $font-title-01;
-  text-transform: uppercase;
-  font-size: $s5;
-  @include bp($md){ font-size: $s7; }
-  @include bp($xl){ font-size: $s10; }
+  margin-top: -10vh;
+  margin-bottom: 5vh;
+  font-family: $font-deco-02;
+  //text-transform: uppercase;
+  font-size: $s11;
+
+  @include bp($md){ font-size: $s12;
+  margin-top: -15vh;
+  margin-bottom: 4vh; }
+  @include bp($xl){ font-size: $s13;
+  margin-bottom: 6vh;}
 
 }

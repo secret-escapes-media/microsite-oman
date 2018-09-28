@@ -11,37 +11,71 @@
 
     {% include page/banner.html %}
 
+
+
+
+
+</div>
+
+
+      <!-- intro -->
+    <div class=" vpad--xl " >
+      <div class="container">
+        <div class="width width--xl text--center text--xxl   ">
+          <div class="title title--md">Zwischen Wüste & Meer</div>
+                      <div class="space--sm "></div>
+          <p>Willkommen im Oman – einem kulturreichen Land, was auf eine jahrtausendealte Geschichte zurückblickt. Erleben Sie die Kontraste zwischen dem tiefblauen Arabischen Meer und der größten Sandwüste der Welt, zwischen trockenen Flussläufen und saftig grünen Oasen. Besichtigen Sie Paläste und Moscheen in Maskat und genießen Sie an langen Sandstränden in Salalah das Prickeln der warmen Sonne auf Ihrer Haut.</p>
+        
+
+        </div>
+      </div>
+    </div>
+
+
     <div class="content-spacing section-spacing">
 
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
-        <div id="{{section.id}}" class="js-nav-section vpad--xxxxl {% cycle 'bg--white', 'bg--light' %}">
+        <div id="{{section.id}}" class="js-nav-section vpad--xl {% cycle 'bg--white', 'bg--light' %}">
           <div class="container">
 
-            <div class="row row--valign-center row--gutters-lg row--6-6">
+            <div class="row row--valign-center row--gutters-md row--6-6">
               <div class="col">
-                <div class="title title--xxl">{{section.title}}</div>
+                <div class="title title--md bv-lineheight">{{section.title}}</div>
+                <div class="space--xs"></div>
                 <p>{{section.description}}</p>
               </div>
               <div class="col">
-                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/img.jpg');"></div>
+                <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{section.img}}.jpg');"></div>
               </div>
             </div>
 
-            <div class="space--xxl"></div>
 
-            <div class="bg--grey text--center boxpad--xl">
-              <div class="title title--xs">{{section.pois.title}}</div>
-              <div class="space--sm"></div>
-              <div class="row row--constant-6-6 row--lg-4-4-4 row--xxxl-2-2-2-2-2 row--gutters-sm">
+
+              <div class="space--xl"></div>
+            <!--     <div class="row row--constant-6-6 row--lg-4-4-4 row--xxxl-2-2-2-2-2 row--gutters-sm"> -->
+
+            <div class="row row--gutters-md">
+
                 {% for poi in section.pois.items %}
-                <div class="col">
+
+                <div id="tracking-poi-{{poi.id}}" class="col col--lg-6 col--xxl-4 text--center js-open-modal" data-open-modal="{{poi.id}}">
+                  <div class="pt-highlight-shadow">
+                    <div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg');"></div>
+                    <div class="bg--white boxpad--md">
+                        <div class="title title--xxs text--bold bv-lineheight">{{poi.title}}</div><div class="space--xs"></div>{{poi.description-short}}...<br>
+                        <div class="space--xxs"></div>
+                        <div class=" text--bold">Mehr erfahren</div>
+                    </div>
+                  </div>
+
+              </div>
+
+              <!--  <div class="col">
                   <div id="tracking-poi-{{poi.id}}" class="js-open-modal bg-img bg-img--3-2" data-open-modal="{{poi.id}}" style="background-image: url('{{site.img}}/img.jpg');"></div>
-                </div>
+                </div> -->
                 {% endfor %}
               </div>
-            </div>
-
 
           </div>
         </div>

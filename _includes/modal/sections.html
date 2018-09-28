@@ -11,12 +11,12 @@
       {% for item in section.pois.items %}
 
         <div class="modal modal--series is-closed" data-modal-id="{{item.id}}" data-modal-group="{{section.id}}">
-          <div class="js-close-modal modal__close"></div>
-          <div class="js-modal-nav modal__nav modal__nav--next" data-nav-direction="next"></div>
-          <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>
-          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.baseurl}}/img/content/{{section.id}}/pois/large/{{item.id}}.jpg');"></div>
+          <div class="js-close-modal modal__close bv-bg-colour2"></div>
+          <div class="js-modal-nav modal__nav modal__nav--next bv-bg-colour2" data-nav-direction="next"></div>
+          <div class="js-modal-nav modal__nav modal__nav--previous bv-bg-colour2" data-nav-direction="previous"></div>
+          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/gallery/{{item.id}}.jpg');"></div>
           <div class="modal__content">
-            <h3 class="title title--sm title--core text--center">{{item.title}}</h3>
+            <div class="title title--sm text--center">{{item.title}}</div>
             <p class="space--sm">{{item.description}}</p>
           </div>
         </div>
