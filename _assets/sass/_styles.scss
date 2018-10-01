@@ -47,6 +47,10 @@
   }
 }
 
+@media only screen and (max-width: 850px) {
+  .bv-mob-hide{display: none; }
+
+}
 
 .bv-bg-img {
   display: block;
@@ -107,3 +111,24 @@
 .bv-text-colour1{ color: rgba(51,1,112,1)!important;}
 
 .bv-text-colour2{ color: rgba(0,96,114,1)!important;}
+
+
+
+/********* Buttons ************/
+
+.bv-btn{
+
+  background-color: #00a0af;
+  //border: 10px solid #25b3e8;
+  padding-top: 30px;
+  text-align: center;
+  width: 250px;
+    border-radius: 2px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    transition: all ease 0.4s;
+    border: none;
+    padding: 16px 28px;
+    cursor: pointer;
+}

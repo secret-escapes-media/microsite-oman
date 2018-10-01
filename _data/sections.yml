@@ -1,8 +1,9 @@
 - id: one
-  title: "Facettenreichtum erleben"
+  title: "Muscat: Facettenreichtum erleben"
   nav-title: Muscat
   img: bg1
-  description: "Die Hauptstadt liegt an der nördlichen Spitze des Landes direkt am glitzernden Golf von Oman und ist im Hinterland eingerahmt Wüste und Gebirge. In der Innenstadt von Muscat erwarten Sie prachtvolle Sultanspaläste und Moscheen, traditionelle Bauten, lebhafte Souks sowie moderne Architektur und exquisite Einkaufsmöglichkeiten. Genießen Sie eine Vorstellung im Royal Opera House oder reisen Sie im Nationalmuseum zurück in die Vergangenheit – tauchen Sie ein, in Ihr Oman-Abenteuer."
+  visible: none;
+  description: "Die Hauptstadt liegt an der nördlichen Spitze des Landes, direkt am glitzernden Golf von Oman und wird von Wüste und Gebirge eingerahmt. In der Innenstadt von Muscat erwarten Sie prachtvolle Sultanspaläste und Moscheen, traditionelle Bauten, lebhafte Souks sowie moderne Architektur und exquisite Einkaufsmöglichkeiten. Genießen Sie eine Vorstellung im Royal Opera House oder reisen Sie im Nationalmuseum zurück in die Vergangenheit – erleben Sie Ihr persönliches Oman-Abenteuer."
 
   pois:
 
@@ -17,27 +18,27 @@
       - id: highlight2
         title: Royal Opera House
         description-short: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der Musik"
-        description: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der Musik geschaffen. Hier treffen sich orientalischer Prunk aus 1001 Nacht mit moderner, gradliniger Architektur, technischen Raffinessen und unglaublicher Akustik. 2011 eröffnet durch Plácido Domingo, werden hier täglich weltberühmte Theaterstücke, Opern, Musicals, Ballettstücke und Konzerte aufgeführt. In der angeschlossenen Opera Galeria können Sie vor Ihrem Besuch durch luxuriöse Läden und vorzügliche Restaurants flanieren."
+        description: "Mit dem Royal Opera House wurde in Muscat ein Märchenpalast der Musik geschaffen. Hier trifft orientalischer Prunk aus 1001 Nacht auf moderne, geradlinige Architektur, technische Raffinessen und unglaubliche Akustik. 2011 eröffnet durch Plácido Domingo, werden hier täglich weltberühmte Theaterstücke, Opern, Musicals, Ballettstücke und Konzerte aufgeführt. In der angeschlossenen Opera Galeria können Sie vor Ihrem Besuch durch luxuriöse Läden flanieren und in einem der vorzüglichen Restaurants dinieren."
 
       - id: highlight3
         title: Alt-Muscat & Al Alam-Palast
         description-short: "Das Zentrum der Altstadt von Muscat bildet der Al Alam Palast, der 1972"
-        description: "Das Zentrum der Altstadt von Muscat bildet der Al Alam Palast, der 1972, veranlasst von Sultan Qaboos bin Said, zum Regierungsgebäude umgebaut wurde. Eine gepflegte Parkanlage umschließt das Gebäude und lädt Gäste zu ausgedehnten Spaziergängen ein. Die historischen Festungen Fort Al Jalali und Fort Mirani stehen wie Wächter zu beiden Seiten des Palastes und wachen, mit Blick auf den Golf von Oman, über den Hafen der Stadt."
+        description: "Das Zentrum der Altstadt von Muscat bildet der Al Alam-Palast, der 1972, veranlasst von Sultan Qaboos bin Said, zum Regierungsgebäude umgebaut wurde. Eine gepflegte Parkanlage umschließt das Gebäude und lädt Gäste zu ausgedehnten Spaziergängen ein. Die historischen Festungen Al Jalali und Al Mirani stehen zu beiden Seiten des Palastes und wachen, mit Blick auf den Golf von Oman, über den Hafen der Stadt."
 
       - id: highlight4
         title: Souk von Muttrah
         description-short: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich"
-        description: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich nach Gewürzen duftet. Begeben Sie sich zwischen Stoffen, Schmuck, kleinen Souvenirs und lokalen Produkten auf Schatzsuche und erfreuen Sie sich am geschäftigen Treiben. Unweit vom Souk, an der Uferpromenade Corniche, liegt der Fischmarkt der Stadt. Dort bieten Fischer direkt aus dem Ozean, ihre fangfrischen Waren feil und Gastronomen sowie Einwohner erwerben Fisch und Meeresfrüchte für ihren alltäglichen Bedarf."
+        description: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich nach Gewürzen duftet. Begeben Sie sich zwischen Stoffen, Schmuck, kleinen Souvenirs und lokalen Produkten auf Schatzsuche und erfreuen Sie sich am geschäftigen Treiben. Unweit vom Souk, an der Corniche, liegt der Fischmarkt der Stadt. Dort bieten Fischer ihre fangfrischen Waren direkt aus dem Ozean feil und Gastronomen sowie Einwohner erwerben Fisch und Meeresfrüchte für ihren alltäglichen Bedarf."
 
       - id: highlight5
         title: Nationalmuseum
         description-short: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie"
-        description: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie zahlreiche Museen und Ausstellungen, wo Sie sich über die Geschichte und die Kultur des Landes informieren können. Besuchen Sie beispielsweise das 2016 eröffnete Nationalmuseum und wandeln Sie auf den Spuren ehemaliger Sultane und ihrer Herrschaftsgeschichte, zurück bis in die Zeit der ersten Besiedlungen. Im Kindermuseum hingegen können klein und groß interaktiv optische Täuschungen und biologische Exponate erforschen."
+        description: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie zahlreiche Museen und Ausstellungen, die Ihnen die Geschichte und die Kultur des Landes näherbringen. Besuchen Sie beispielsweise das 2016 eröffnete Nationalmuseum und wandeln Sie auf den Spuren ehemaliger Sultane und ihrer Herrschaftsgeschichte zurück bis in die Zeit der ersten Besiedlungen. Im Kindermuseum hingegen können Klein und Groß interaktiv optische Täuschungen und biologische Exponate erforschen."
 
       - id: highlight6
         title: " Daymaniyat Inseln, Wadi Al Arbeieen, Strand Qurum"
         description-short: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der"
-        description: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der Schönheit des Omans verzaubern. Muscat liegt umgeben von traumhaften Stränden und Naturreservarten wie den Daymaniyat Inseln, wo Sie Meeresschildkröten und seltene Fischarten vor bunten Korallenriffen begrüßen. Der Qurum Beach wartet mit gemütlichen Strandbars und Cafés und das Wadi Al Arbeieen ist ein malerischer Flusslauf östlich flankiert vom imposanten, sandfarbenen Hadschar-Gebirge."
+        description: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der Schönheit des Omans verzaubern. Muscat liegt umgeben von traumhaften Stränden und Naturreservarten wie den Daymaniyat-Inseln, wo Sie Meeresschildkröten und seltene Fischarten vor bunten Korallenriffen begrüßen. Der Qurum-Strand erwartet Sie mit gemütlichen Strandbars und Cafés und das Wadi Al Arbeieen ist ein malerischer Flusslauf flankiert vom imposanten, sandfarbenen Hadschar-Gebirge."
 
 
 
@@ -48,6 +49,7 @@
   title: "Salalah: Badeparadies & Kulturstadt"
   nav-title: Salalah
   img: bg2
+  visible: none;
   description: Gemächlich kauende Dromedare, frischer Saft aus Kokosnüssen, türkises Meer und traumhafte Sandstrände, mit einem Hauch von Karibik – das erwartet Sie in der Küstenstadt Salalah im Südwesten des Omans. Eine exotische Naturlandschaft, traditionelle Märkte und authentische Ursprünglichkeit machen Salalah zu einem Ziel für Entdecker und Genießer. Hier versteckt sich eine perfekte Komposition aus Badeparadies und Kulturstadt, die als Mittelpunkt der Weihrauchstraße einst zu den wichtigsten Handelszentren des Landes gehörte.
 
   pois:
@@ -65,10 +67,10 @@
         description-short: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße"
         description: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße durchzogen, die zu Zeiten der Römer die Verbindung der Arabischen Halbinsel zum Mittelmeer war. Hier wird der vielseitig einsetzbare Harz noch heute gewonnen und in unzählige Länder der Welt exportiert. Einmal im Jahr, im Monat September, findet in Salalah ein großer Markt statt, wo ausschließlich Weihrauch und damit gefertigte Produkte wie ätherische Öle angeboten und verkauft werden."
 
-      - id: highlight9
-        title: Tor zur Rub al-Khali
-        description-short: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten"
-        description: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten Sandwüste der Welt – bezeichnet. Sie ist ein guter Startpunkt, um die teilweise unberührte Sandlandschaft zu erkunden. Nizwa selbst ist von einer grünen Oase und einer majestätischen Berglandschaft umgeben. Über der Stadt auf einem Hügel, thront eine mächtige Festung aus dem 17. Jahrhundert, die neben den mit Ornamenten verzierten Gebäuden und einem der größten Souks des Landes mehr als sehenswert ist."
+    #  - id: highlight9
+    #    title: Tor zur Rub al-Khali
+    #    description-short: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten"
+    #    description: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten Sandwüste der Welt – bezeichnet. Sie ist ein guter Startpunkt, um die teilweise unberührte Sandlandschaft zu erkunden. Nizwa selbst ist von einer grünen Oase und einer majestätischen Berglandschaft umgeben. Über der Stadt auf einem Hügel, thront eine mächtige Festung aus dem 17. Jahrhundert, die neben den mit Ornamenten verzierten Gebäuden und einem der größten Souks des Landes mehr als sehenswert ist."
 
       - id: highlight10
         title: Mirbat
@@ -83,9 +85,10 @@
 
 
 - id: three
-  title: "Kombination aus Bergen & Meer"
+  title: "Musandam: Kombination aus Bergen & Meer"
   nav-title: Musandam
   img: bg3
+  visible: none;
   description: "Extrem facettenreich zeigt sich auch die Halbinsel Musandam. Hier ragen schroffe Felsen aus dem tiefblauen Meer empor und bilden Höhlen, Fjorde und Buchten, die es zu erkunden gilt. Fahren Sie im Winter mit dem Seekajak an den Fuß der Klippen und wandern Sie durch die zerklüftete Landschaft und die Flussläufe des Wadi Bih. Auf diesen Touren schlagen Sie ihr Lager an wilden Stränden auf und haben die Möglichkeit in den versteckten Buchten Meeresschildkröten und Delfine zu beobachten. Oder Sie gehen an Bord eines traditionellen Dhaus und genießen einen authentischen Ausflug auf einem der ursprünglichen Holzboote."
 
 
@@ -100,6 +103,7 @@
   nav-title: Hadschar Gebirge
   img: bg4
   description: "Im Hadschar-Gebirge befinden sich die höchsten Gipfel im Oman, zahlreiche Wadis, Schluchten und Täler, Höhlen und grüne Oasen. Erkunden Sie aktiv Ihre Umgebung beim Klettern, Canyoning oder Wandern oder begeben Sie sich bei einer Offroad-Tour auf ein Abenteuer abseits von Straßen und Asphalt. Blicken Sie über das phänomenale Naturschauspiel des omanischen Grand Canyons und tauchen Sie ab in glitzerndes Wasser. Im Hadschar-Gebirge warten Nervenkitzel und majestätische Schönheit auf Sie."
+  visible: none;
 
   pois:
 
@@ -107,7 +111,7 @@
     items:
 
       - id: highlight11
-        title: Jebel al Shams
+        title: Jebel Shams
         description-short: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt"
         description: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt im Oman. Die Spitze kann auch ohne Bergsteigererfahrung erklommen werden und bietet spektakuläre Ausblicke auf die umliegende, zerklüftete Landschaft. Wer den Berg nicht hochwanden möchte, kann ihn auch in etwa 3 Stunden umrunden und passiert dabei unter anderem ein verlassenes Bergdorf und einen sprudelnden Wasserfall."
 
@@ -130,3 +134,18 @@
         title: Klettern
         description-short: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten"
         description: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten Routen die Berge hochklettern und sich tief in Schluchten und Höhlen abseilen. Erleben Sie ultimativen Nervenkitzel in den Höhlen bei Al Hoota oder an den steilen Wänden des Jebel Shams. Begeben Sie sich auf sportliche Urlaubsabenteuer und schaffen Sie Erinnerungen, die Sie nie vergessen werden."
+
+
+
+################################################################################
+
+
+
+
+- id: five
+  title: "Aktuelle Events im Oman"
+  nav-title: Veranstaltungen
+  img: bg5
+  description: "Im Oman finden viele Veranstaltungen in den Bereichen Kultur, Sport, Lifestyle, etc. statt. Hier kommen Sie zum aktuellen Eventkalender:"
+  visible: block;
+  cta: "https://events.experienceoman.om"
