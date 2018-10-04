@@ -99,18 +99,21 @@
 
   &--md  { line-height: 1.2;
     padding-bottom: 3px; }
+
+  &--sm  { line-height: 0.9;
+    padding-bottom: 3px; }
 }
 
 
 /******** Colours *********/
 
-.bv-bg-colour1{ background-color: rgba(51,1,112,1)!important;}
+.bv-bg-colour1{ background-color: #ad004d!important;}
 
-.bv-bg-colour2{ background-color: rgba(0,96,114,1)!important;}
+.bv-bg-colour2{ background-color: #330170!important;}
 
-.bv-text-colour1{ color: rgba(51,1,112,1)!important;}
+.bv-text-colour1{ color: #ad004d!important;}
 
-.bv-text-colour2{ color: rgba(0,96,114,1)!important;}
+.bv-text-colour2{ color: #330170!important;}
 
 
 
@@ -118,17 +121,17 @@
 
 .bv-btn{
 
-  background-color: #00a0af;
   //border: 10px solid #25b3e8;
   padding-top: 30px;
   text-align: center;
+  font-weight: bold;
   width: 250px;
-    border-radius: 2px;
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    color: #ffffff;
-    transition: all ease 0.4s;
-    border: none;
-    padding: 16px 28px;
-    cursor: pointer;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+  transition: all ease 0.4s;
+  border: none;
+  padding: 16px 28px;
+  cursor: pointer;
 }

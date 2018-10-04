@@ -12,32 +12,44 @@
 
       - id: highlight1
         title: Sultan Qaboos-Moschee
-        description-short: "Auf polierten Marmorplatten steht mitten in Muscat die majestätische Sultan"
+        description-short: "Auf polierten Marmorplatten steht mitten in Muscat die majestätische"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Auf polierten Marmorplatten steht mitten in Muscat die majestätische Sultan Qaboos-Moschee, erbaut aus strahlendem Sandstein mit runden Kuppeln und schmuckvollen Ornamenten. Sie ist eine der größten Moscheen weltweit und auch für nicht muslimische Besucher zugänglich. Im Inneren setzen sich tausende bunte Mosaikstücke zu einem farbenprächtigen Gesamtbild aus Türkis- und Blautönen zusammen und der Kronleuchter im Gebetssaal ist mit unzähligen funkelnden Kristallen besetzt."
 
       - id: highlight2
         title: Royal Opera House
         description-short: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der Musik"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Mit dem Royal Opera House wurde in Muscat ein Märchenpalast der Musik geschaffen. Hier trifft orientalischer Prunk aus 1001 Nacht auf moderne, geradlinige Architektur, technische Raffinessen und unglaubliche Akustik. 2011 eröffnet durch Plácido Domingo, werden hier täglich weltberühmte Theaterstücke, Opern, Musicals, Ballettstücke und Konzerte aufgeführt. In der angeschlossenen Opera Galeria können Sie vor Ihrem Besuch durch luxuriöse Läden flanieren und in einem der vorzüglichen Restaurants dinieren."
 
       - id: highlight3
         title: Alt-Muscat & Al Alam-Palast
         description-short: "Das Zentrum der Altstadt von Muscat bildet der Al Alam Palast, der 1972"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Das Zentrum der Altstadt von Muscat bildet der Al Alam-Palast, der 1972, veranlasst von Sultan Qaboos bin Said, zum Regierungsgebäude umgebaut wurde. Eine gepflegte Parkanlage umschließt das Gebäude und lädt Gäste zu ausgedehnten Spaziergängen ein. Die historischen Festungen Al Jalali und Al Mirani stehen zu beiden Seiten des Palastes und wachen, mit Blick auf den Golf von Oman, über den Hafen der Stadt."
 
       - id: highlight4
         title: Souk von Muttrah
-        description-short: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich"
+        description-short: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Der Souk von Muttrah ist ein traditioneller überdachter Markt, in dem es herrlich nach Gewürzen duftet. Begeben Sie sich zwischen Stoffen, Schmuck, kleinen Souvenirs und lokalen Produkten auf Schatzsuche und erfreuen Sie sich am geschäftigen Treiben. Unweit vom Souk, an der Corniche, liegt der Fischmarkt der Stadt. Dort bieten Fischer ihre fangfrischen Waren direkt aus dem Ozean feil und Gastronomen sowie Einwohner erwerben Fisch und Meeresfrüchte für ihren alltäglichen Bedarf."
 
       - id: highlight5
         title: Nationalmuseum
         description-short: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie zahlreiche Museen und Ausstellungen, die Ihnen die Geschichte und die Kultur des Landes näherbringen. Besuchen Sie beispielsweise das 2016 eröffnete Nationalmuseum und wandeln Sie auf den Spuren ehemaliger Sultane und ihrer Herrschaftsgeschichte zurück bis in die Zeit der ersten Besiedlungen. Im Kindermuseum hingegen können Klein und Groß interaktiv optische Täuschungen und biologische Exponate erforschen."
 
       - id: highlight6
-        title: " Daymaniyat Inseln, Wadi Al Arbeieen, Strand Qurum"
-        description-short: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der"
+        title: "Daymaniyat Inseln, Wadi Al Arbeieen, Strand Qurum"
+        pad-bottom: 40%
+        pad-top: 23%
+        description-short: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von"
         description: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der Schönheit des Omans verzaubern. Muscat liegt umgeben von traumhaften Stränden und Naturreservarten wie den Daymaniyat-Inseln, wo Sie Meeresschildkröten und seltene Fischarten vor bunten Korallenriffen begrüßen. Der Qurum-Strand erwartet Sie mit gemütlichen Strandbars und Cafés und das Wadi Al Arbeieen ist ein malerischer Flusslauf flankiert vom imposanten, sandfarbenen Hadschar-Gebirge."
 
 
@@ -60,11 +72,15 @@
       - id: highlight7
         title: Strände, Baden, Tauchen
         description-short: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse umschließen den Oman. Besonders im Süden sind die exotischen Lagunen und farbenprächtigen Korallenriffe an Schönheit kaum zu übertreffen. In den Regionen um Salalah und Dhofar verbreiten Kokusnussplantagen, Palmen, glasklares Wasser und goldener Sand erholsames Urlaubsflair. Wassersport, Tauchgänge oder Bootsausflüge sind dabei ideale Aktivitäten, um die bunte Welt vor der Küste des Omans zu entdecken."
 
       - id: highlight8
         title: Weihrauch
-        description-short: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße"
+        description-short: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße durchzogen, die zu Zeiten der Römer die Verbindung der Arabischen Halbinsel zum Mittelmeer war. Hier wird der vielseitig einsetzbare Harz noch heute gewonnen und in unzählige Länder der Welt exportiert. Einmal im Jahr, im Monat September, findet in Salalah ein großer Markt statt, wo ausschließlich Weihrauch und damit gefertigte Produkte wie ätherische Öle angeboten und verkauft werden."
 
     #  - id: highlight9
@@ -75,6 +91,8 @@
       - id: highlight10
         title: Mirbat
         description-short: "Im Süden, nur etwa eine Autostunde von Salalah entfernt, finden Sie die"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Im Süden, nur etwa eine Autostunde von Salalah entfernt, finden Sie die kleine Hafen- und ehemalige Handelsstadt Mirbat. Inmitten der Weihrauchstraße gelegen, können hier noch prächtige Handelshäuser aus den Hochzeiten des Exports bewundert werden. Außerdem gibt es historische Kulturstätten zu entdecken, wie das Grabmahl des Heiligen Bin Ali, der rund 1161 in Mirbat verstarb. Die schönen Buchten und Strände der Stadt sowie die Tauchreviere bilden eine idyllische Basis für eine erholsame Auszeit."
 
 
@@ -113,26 +131,36 @@
       - id: highlight11
         title: Jebel Shams
         description-short: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt im Oman. Die Spitze kann auch ohne Bergsteigererfahrung erklommen werden und bietet spektakuläre Ausblicke auf die umliegende, zerklüftete Landschaft. Wer den Berg nicht hochwanden möchte, kann ihn auch in etwa 3 Stunden umrunden und passiert dabei unter anderem ein verlassenes Bergdorf und einen sprudelnden Wasserfall."
 
       - id: highlight12
         title: Wadi Nakhar
         description-short: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die sogenannten Wadis, zu den landschaftlichen Höhepunkten. Je nachdem, ob Sie mit Wasser gefüllt sind, verwandeln sie sich in tropische Oasen, türkise Naturpools oder einsame Wüstentäler mit steilen Felsklippen. Besonders sehenswert ist das Wadi Nakhar, was auch Grand Canyon des Omans genannt wird. Die Plateaus über der rund 1000 m tiefen Schlucht eröffnen beeindruckende Panoramen über die Weiten des Hadschar-Gebirges."
 
       - id: highlight13
         title: Canyoning
-        description-short: "Beim Canyoning erklimmt man Steilwände, watet durch Bachläufe und klettert"
+        description-short: "Beim Canyoning erklimmt man Steilwände, watet durch Bachläufe"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Beim Canyoning erklimmt man Steilwände, watet durch Bachläufe und klettert über Gestein, bis man von Felsvorsprüngen aus verschiedenen Höhen in natürliche Wasserbecken springt. Es empfiehlt sich nur an organisieren Canyoning-Touren teilzunehmen, beispielsweise im Wadi Bani Awf. Hier befindet sich der Snake Canyon, wo sie über Seilbrücken balancieren und wilde Fjorde durchqueren, bevor Sie mit einem Sprung ins kühle Wasser abtauchen."
 
       - id: highlight14
         title: Offroad Touren
         description-short: "Wirbelnder Staub, abenteuerliche Fahrten und gewundene Pfade"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Wirbelnder Staub, abenteuerliche Fahrten und gewundene Pfade erwarten Sie auf einer Offroad-Tour durch die Berge. Tauschen Sie asphaltiere Straßen gegen sandige Wege, die zu kleinen Bergdörfern und den entlegensten Winkeln des Hadschar-Gebirges führen. Lernen Sie den Oman von seiner unberührten Seite kennen und kosten Sie die Schönheit von Granatapfelbäumen und prächtigen Rosenstauden in den Hügeln voll aus."
 
       - id: highlight15
         title: Klettern
         description-short: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten"
+        pad-bottom: 36%
+        pad-top: 27%
         description: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten Routen die Berge hochklettern und sich tief in Schluchten und Höhlen abseilen. Erleben Sie ultimativen Nervenkitzel in den Höhlen bei Al Hoota oder an den steilen Wänden des Jebel Shams. Begeben Sie sich auf sportliche Urlaubsabenteuer und schaffen Sie Erinnerungen, die Sie nie vergessen werden."
 
 

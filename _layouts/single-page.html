@@ -22,7 +22,7 @@
     <div class=" vpad--xl " >
       <div class="container">
         <div class="width width--xl text--center text--xxl   ">
-          <div class="title title--md">Zwischen Wüste & Meer</div>
+          <div class="text-deco text-deco--upper text--center">Zwischen Wüste & Meer</div>
                       <div class="space--sm "></div>
           <p>Willkommen im Oman – einem kulturreichen Land, was auf eine jahrtausendealte Geschichte zurückblickt. Erleben Sie die Kontraste zwischen dem tiefblauen Arabischen Meer und der größten Sandwüste der Welt, zwischen trockenen Flussläufen und saftig grünen Oasen. Besichtigen Sie Paläste und Moscheen in Maskat und genießen Sie an langen Sandstränden in Salalah das Prickeln der warmen Sonne auf Ihrer Haut.</p>
 
@@ -32,18 +32,18 @@
     </div>
 
 
-    <div class="content-spacing section-spacing">
+    <div class="content-spacing section-spacing" >
 
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
-        <div id="{{section.id}}" class="js-nav-section vpad--xl {% cycle 'bg--white', 'bg--light' %}">
+        <div id="{{section.id}}" class="js-nav-section vpad--xl bg--light " style=" border-bottom:4px #fff dotted;">
           <div class="container">
 
             <div class="row row--valign-center row--gutters-md row--6-6">
               <div class="col">
-                <div class="title title--md bv-lineheight">{{section.title}}</div>
+                <div class="text-deco bv-lineheight" style="letter-spacing: -1.5px;">{{section.title}}</div>
                 <div class="space--xs"></div>
-                <p>{{section.description}} </p><br>  <p>  <a style="display:{{section.visible}}" class="bv-btn" target="_blank" href="{{section.cta}}">Veranstaltungen</a></p>
+                <p>{{section.description}} </p><br>  <p>  <a style="display:{{section.visible}}" class="bv-btn bv-bg-colour1" target="_blank" href="{{section.cta}}">Veranstaltungen</a></p>
               </div>
               <div class="col">
                 <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{section.img}}.jpg');"></div>
@@ -61,11 +61,11 @@
 
                 <div id="tracking-poi-{{poi.id}}" class="col col--lg-6 col--xxl-4 text--center js-open-modal" data-open-modal="{{poi.id}}">
                   <div class="pt-highlight-shadow">
-                    <div class="highlight__image bg-img bg-img--16-9" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg');"></div>
-                    <div class="bg--white boxpad--md">
-                        <div class="title title--xxs text--bold bv-lineheight">{{poi.title}}</div><div class="space--xs"></div>{{poi.description-short}}...<br>
+                    <div class="highlight__image bg-img" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg'); background-color: rgba(0,0,0,0.3); background-blend-mode: multiply;"><div class="bv-lineheight--md title text--bold title--xs text--white" style=" padding-bottom:{{poi.pad-bottom}};padding-top:{{poi.pad-top}}; height:30px;">{{poi.title}}</div></div>
+                    <div class="bg--white boxpad--lg">
+                        {{poi.description-short}}...<br>
                         <div class="space--xxs"></div>
-                        <div class=" text--bold">Mehr erfahren</div>
+                        <div class=" text--bold bv-text-colour2">Mehr erfahren</div>
                     </div>
                   </div>
 
@@ -84,7 +84,7 @@
       <!-- Offers section -->
       <div id="offers" class="js-nav-section">
         <div class="space--xxxl"></div>
-        <div class="title title--xxxl text--center">Latest Offers</div>
+        <div class="text-deco text-deco--upper text--center" >Latest Offers</div>
         <div class="space--xxl"></div>
         {% include offer/all-offers.html %}
         <div class="space--xxxl"></div>
