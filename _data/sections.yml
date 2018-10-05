@@ -19,13 +19,13 @@
 
       - id: highlight2
         title: Royal Opera House
-        description-short: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der Musik"
+        description-short: "Mit dem Royal Opera House wurde in Muskat ein Märchenpalast der"
         pad-bottom: 36%
         pad-top: 27%
         description: "Mit dem Royal Opera House wurde in Muscat ein Märchenpalast der Musik geschaffen. Hier trifft orientalischer Prunk aus 1001 Nacht auf moderne, geradlinige Architektur, technische Raffinessen und unglaubliche Akustik. 2011 eröffnet durch Plácido Domingo, werden hier täglich weltberühmte Theaterstücke, Opern, Musicals, Ballettstücke und Konzerte aufgeführt. In der angeschlossenen Opera Galeria können Sie vor Ihrem Besuch durch luxuriöse Läden flanieren und in einem der vorzüglichen Restaurants dinieren."
 
       - id: highlight3
-        title: Alt-Muscat & Al Alam-Palast
+        title: Alt-Muscat & Al&nbsp;Alam-Palast
         description-short: "Das Zentrum der Altstadt von Muscat bildet der Al Alam Palast, der 1972"
         pad-bottom: 36%
         pad-top: 27%
@@ -40,17 +40,17 @@
 
       - id: highlight5
         title: Nationalmuseum
-        description-short: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie"
+        description-short: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden"
         pad-bottom: 36%
         pad-top: 27%
         description: "Auch die kulturelle Vielfalt kommt in Muscat nicht zu kurz: Hier finden Sie zahlreiche Museen und Ausstellungen, die Ihnen die Geschichte und die Kultur des Landes näherbringen. Besuchen Sie beispielsweise das 2016 eröffnete Nationalmuseum und wandeln Sie auf den Spuren ehemaliger Sultane und ihrer Herrschaftsgeschichte zurück bis in die Zeit der ersten Besiedlungen. Im Kindermuseum hingegen können Klein und Groß interaktiv optische Täuschungen und biologische Exponate erforschen."
 
       - id: highlight6
         title: "Daymaniyat Inseln, Wadi Al Arbeieen, Strand Qurum"
-        pad-bottom: 40%
-        pad-top: 23%
-        description-short: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von"
-        description: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der Schönheit des Omans verzaubern. Muscat liegt umgeben von traumhaften Stränden und Naturreservarten wie den Daymaniyat-Inseln, wo Sie Meeresschildkröten und seltene Fischarten vor bunten Korallenriffen begrüßen. Der Qurum-Strand erwartet Sie mit gemütlichen Strandbars und Cafés und das Wadi Al Arbeieen ist ein malerischer Flusslauf flankiert vom imposanten, sandfarbenen Hadschar-Gebirge."
+        pad-bottom: 41%
+        pad-top: 22%
+        description-short: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich"
+        description: "Erkunden Sie das Land auch rund um die Hauptstadt und lassen Sie sich von der Schönheit des Sultants Oman verzaubern. Muscat liegt umgeben von traumhaften Stränden und Naturreservarten wie den Daymaniyat-Inseln, wo Sie Meeresschildkröten und seltene Fischarten vor bunten Korallenriffen begrüßen. Der Qurum-Strand erwartet Sie mit gemütlichen Strandbars und Cafés und das Wadi Al Arbeieen ist ein malerischer Flusslauf flankiert vom imposanten, sandfarbenen Hadschar-Gebirge."
 
 
 
@@ -62,7 +62,7 @@
   nav-title: Salalah
   img: bg2
   visible: none;
-  description: Gemächlich kauende Dromedare, frischer Saft aus Kokosnüssen, türkises Meer und traumhafte Sandstrände, mit einem Hauch von Karibik – das erwartet Sie in der Küstenstadt Salalah im Südwesten des Omans. Eine exotische Naturlandschaft, traditionelle Märkte und authentische Ursprünglichkeit machen Salalah zu einem Ziel für Entdecker und Genießer. Hier versteckt sich eine perfekte Komposition aus Badeparadies und Kulturstadt, die als Mittelpunkt der Weihrauchstraße einst zu den wichtigsten Handelszentren des Landes gehörte.
+  description: "Gemächlich kauende Dromedare, frisches Kokoswasser, türkises Meer und traumhafte Sandstrände, mit einem Hauch von Karibik – das erwartet Sie in der Küstenstadt Salalah im Südwesten des Sultanats Oman. Eine exotische Naturlandschaft, traditionelle Märkte und authentische Ursprünglichkeit machen Salalah zu einem Ziel für Entdecker und Genießer. Hier versteckt sich eine perfekte Komposition aus Badeparadies und Kulturstadt, die als Mittelpunkt der Weihrauchstraße einst zu den wichtigsten Handelszentren des Landes gehörte."
 
   pois:
 
@@ -74,19 +74,21 @@
         description-short: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse"
         pad-bottom: 36%
         pad-top: 27%
-        description: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse umschließen den Oman. Besonders im Süden sind die exotischen Lagunen und farbenprächtigen Korallenriffe an Schönheit kaum zu übertreffen. In den Regionen um Salalah und Dhofar verbreiten Kokusnussplantagen, Palmen, glasklares Wasser und goldener Sand erholsames Urlaubsflair. Wassersport, Tauchgänge oder Bootsausflüge sind dabei ideale Aktivitäten, um die bunte Welt vor der Küste des Omans zu entdecken."
+        description: "Rund 3.165 Kilometer Küste mit einer einzigartigen Unterwasser-Kulisse umschließen das Sultanat. Besonders im Süden sind die exotischen Lagunen und farbenprächtigen Korallenriffe an Schönheit kaum zu übertreffen. In den Regionen um Salalah und Dhofar verbreiten Kokusnussplantagen, Palmen, glasklares Wasser und goldener Sand erholsames Urlaubsflair. Wassersport, Tauchgänge oder Bootsausflüge sind dabei ideale Aktivitäten, um die bunte Welt vor der Küste des Omans zu entdecken."
 
       - id: highlight8
         title: Weihrauch
-        description-short: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten"
+        description-short: "Der Oman gilt als Land des Weihrauchs und wird von der"
         pad-bottom: 36%
         pad-top: 27%
-        description: "Der Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße durchzogen, die zu Zeiten der Römer die Verbindung der Arabischen Halbinsel zum Mittelmeer war. Hier wird der vielseitig einsetzbare Harz noch heute gewonnen und in unzählige Länder der Welt exportiert. Einmal im Jahr, im Monat September, findet in Salalah ein großer Markt statt, wo ausschließlich Weihrauch und damit gefertigte Produkte wie ätherische Öle angeboten und verkauft werden."
+        description: "Oman gilt als Land des Weihrauchs und wird von der sogenannten Weihrauchstraße durchzogen, die zu Zeiten der Römer die Verbindung der Arabischen Halbinsel zum Mittelmeer war. Hier wird der vielseitig einsetzbare Harz noch heute gewonnen und in unzählige Länder der Welt exportiert. Nutzen Sie die Gelegenheit und besuchen Sie einen der Märkte, auf denen Weihrauch und damit gefertigte Produkte wie ätherische Öle angeboten und verkauft werden."
 
-    #  - id: highlight9
-    #    title: Tor zur Rub al-Khali
-    #    description-short: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten"
-    #    description: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten Sandwüste der Welt – bezeichnet. Sie ist ein guter Startpunkt, um die teilweise unberührte Sandlandschaft zu erkunden. Nizwa selbst ist von einer grünen Oase und einer majestätischen Berglandschaft umgeben. Über der Stadt auf einem Hügel, thront eine mächtige Festung aus dem 17. Jahrhundert, die neben den mit Ornamenten verzierten Gebäuden und einem der größten Souks des Landes mehr als sehenswert ist."
+      - id: highlight9
+        title: Tor zur Rub al-Chali
+        pad-bottom: 36%
+        pad-top: 27%
+        description-short: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali"
+        description: "Die ehemalige Hauptstadt Nizwa wird als Tor zur Rub al-Khali – der größten Sandwüste der Welt – bezeichnet. Sie ist ein guter Startpunkt, um die teilweise unberührte Sandlandschaft zu erkunden, die über ein Viertel der gesamten Arabischen Halbinsel bedeckt: Diese noch nicht vollständig erforschte „Wüste der Wüsten“ ist ein wahres Mysterium. Erleben Sie die einzigartige Landschaft bei einem Tagesausflug oder verbringen Sie eine unvergessliche Nacht inmitten imposanter Sandberge."
 
       - id: highlight10
         title: Mirbat
@@ -120,7 +122,7 @@
   title: "Hadschar Gebirge: Abenteuer & Zauber der Natur"
   nav-title: Hadschar Gebirge
   img: bg4
-  description: "Im Hadschar-Gebirge befinden sich die höchsten Gipfel im Oman, zahlreiche Wadis, Schluchten und Täler, Höhlen und grüne Oasen. Erkunden Sie aktiv Ihre Umgebung beim Klettern, Canyoning oder Wandern oder begeben Sie sich bei einer Offroad-Tour auf ein Abenteuer abseits von Straßen und Asphalt. Blicken Sie über das phänomenale Naturschauspiel des omanischen Grand Canyons und tauchen Sie ab in glitzerndes Wasser. Im Hadschar-Gebirge warten Nervenkitzel und majestätische Schönheit auf Sie."
+  description: "Im Hadschar-Gebirge befinden sich die höchsten Gipfel des Sultanats Oman, zahlreiche Wadis, Schluchten und Täler, Höhlen und grüne Oasen. Erkunden Sie aktiv Ihre Umgebung beim Klettern, Canyoning oder Wandern oder begeben Sie sich bei einer Offroad-Tour auf ein Abenteuer abseits von Straßen und Asphalt. Blicken Sie über das phänomenale Naturschauspiel des omanischen Grand Canyons und tauchen Sie ab in glitzerndes Wasser. Im Hadschar-Gebirge warten Nervenkitzel und majestätische Schönheit auf Sie."
   visible: none;
 
   pois:
@@ -133,14 +135,14 @@
         description-short: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt"
         pad-bottom: 36%
         pad-top: 27%
-        description: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000m der höchste Punkt im Oman. Die Spitze kann auch ohne Bergsteigererfahrung erklommen werden und bietet spektakuläre Ausblicke auf die umliegende, zerklüftete Landschaft. Wer den Berg nicht hochwanden möchte, kann ihn auch in etwa 3 Stunden umrunden und passiert dabei unter anderem ein verlassenes Bergdorf und einen sprudelnden Wasserfall."
+        description: "Der Gipfel des Berges Jebel Shams ist mit etwa 3000 m der höchste Punkt in Oman. Die Spitze kann auch ohne Bergsteigererfahrung erklommen werden und bietet spektakuläre Ausblicke auf die umliegende, zerklüftete Landschaft. Wer den Berg nicht hochwanden möchte, kann ihn auch in etwa 3 Stunden umrunden und passiert dabei unter anderem ein verlassenes Bergdorf und einen sprudelnden Wasserfall."
 
       - id: highlight12
         title: Wadi Nakhar
         description-short: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die"
         pad-bottom: 36%
         pad-top: 27%
-        description: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die sogenannten Wadis, zu den landschaftlichen Höhepunkten. Je nachdem, ob Sie mit Wasser gefüllt sind, verwandeln sie sich in tropische Oasen, türkise Naturpools oder einsame Wüstentäler mit steilen Felsklippen. Besonders sehenswert ist das Wadi Nakhar, was auch Grand Canyon des Omans genannt wird. Die Plateaus über der rund 1000 m tiefen Schlucht eröffnen beeindruckende Panoramen über die Weiten des Hadschar-Gebirges."
+        description: "In vielen Teilen des Landes gehören ausgetrocknete Flussläufe, die sogenannten Wadis, zu den landschaftlichen Höhepunkten. Je nach Wasserstand verwandeln sie sich in tropische Oasen, türkise Naturpools oder einsame Wüstentäler mit steilen Felsklippen. Besonders sehenswert ist das Wadi Nakhar, welches auch Grand Canyon Omans genannt wird. Die Plateaus über der rund 1000 m tiefen Schlucht eröffnen beeindruckende Panoramen über die Weiten des Hadschar-Gebirges."
 
       - id: highlight13
         title: Canyoning
@@ -154,26 +156,11 @@
         description-short: "Wirbelnder Staub, abenteuerliche Fahrten und gewundene Pfade"
         pad-bottom: 36%
         pad-top: 27%
-        description: "Wirbelnder Staub, abenteuerliche Fahrten und gewundene Pfade erwarten Sie auf einer Offroad-Tour durch die Berge. Tauschen Sie asphaltiere Straßen gegen sandige Wege, die zu kleinen Bergdörfern und den entlegensten Winkeln des Hadschar-Gebirges führen. Lernen Sie den Oman von seiner unberührten Seite kennen und kosten Sie die Schönheit von Granatapfelbäumen und prächtigen Rosenstauden in den Hügeln voll aus."
+        description: "Wirbelnder Sand, abenteuerliche Fahrten und gewundene Pfade erwarten Sie auf einer Offroad-Tour durch die Berge. Tauschen Sie asphaltierte Straßen gegen sandige Wege, die zu kleinen Bergdörfern und den entlegensten Winkeln des Hadschar-Gebirges führen. Lernen Sie Oman von seiner unberührten Seite kennen und kosten Sie die Schönheit von Granatapfelbäumen und prächtigen Rosenstauden in den Hügeln voll aus. "
 
       - id: highlight15
         title: Klettern
-        description-short: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten"
+        description-short: "Natürlich kann man in der Umgebung des Gebirges auch auf"
         pad-bottom: 36%
         pad-top: 27%
         description: "Natürlich kann man in der Umgebung des Gebirges auch auf ausgewählten Routen die Berge hochklettern und sich tief in Schluchten und Höhlen abseilen. Erleben Sie ultimativen Nervenkitzel in den Höhlen bei Al Hoota oder an den steilen Wänden des Jebel Shams. Begeben Sie sich auf sportliche Urlaubsabenteuer und schaffen Sie Erinnerungen, die Sie nie vergessen werden."
-
-
-
-################################################################################
-
-
-
-
-- id: five
-  title: "Aktuelle Events im Oman"
-  nav-title: Veranstaltungen
-  img: bg5
-  description: "Im Oman finden viele Veranstaltungen in den Bereichen Kultur, Sport, Lifestyle, etc. statt. Hier kommen Sie zum aktuellen Eventkalender:"
-  visible: block;
-  cta: "https://events.experienceoman.om"

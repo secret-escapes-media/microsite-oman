@@ -22,9 +22,9 @@
     <div class=" vpad--xl " >
       <div class="container">
         <div class="width width--xl text--center text--xxl   ">
-          <div class="text-deco text-deco--upper text--center">Zwischen Wüste & Meer</div>
+          <div class="text-deco text-deco--xxxxl text-deco--upper text--center">Zwischen Wüste & Meer</div>
                       <div class="space--sm "></div>
-          <p>Willkommen im Oman – einem kulturreichen Land, was auf eine jahrtausendealte Geschichte zurückblickt. Erleben Sie die Kontraste zwischen dem tiefblauen Arabischen Meer und der größten Sandwüste der Welt, zwischen trockenen Flussläufen und saftig grünen Oasen. Besichtigen Sie Paläste und Moscheen in Maskat und genießen Sie an langen Sandstränden in Salalah das Prickeln der warmen Sonne auf Ihrer Haut.</p>
+          <p>Willkommen im Sultanat Oman – einem kulturreichen Land, das auf eine jahrtausendealte Geschichte zurückblickt. Erleben Sie die Kontraste zwischen dem tiefblauen Arabischen Meer und der größten Sandwüste der Welt, zwischen trockenen Flussläufen und saftig grünen Oasen. Besichtigen Sie Paläste und Moscheen in Muscat und genießen Sie an langen Sandstränden in Salalah das Prickeln der warmen Sonne auf Ihrer Haut.</p>
 
 
         </div>
@@ -36,14 +36,14 @@
 
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
-        <div id="{{section.id}}" class="js-nav-section vpad--xl bg--light " style=" border-bottom:4px #fff dotted;">
+        <div id="{{section.id}}" class="{% cycle 'bg--light', 'bg--white' %} js-nav-section vpad--xl " >
           <div class="container">
 
             <div class="row row--valign-center row--gutters-md row--6-6">
               <div class="col">
-                <div class="text-deco bv-lineheight" style="letter-spacing: -1.5px;">{{section.title}}</div>
+                <div class="text-deco text-deco--xxxxl bv-lineheight" style="letter-spacing: -1.5px;">{{section.title}}</div>
                 <div class="space--xs"></div>
-                <p>{{section.description}} </p><br>  <p>  <a style="display:{{section.visible}}" class="bv-btn bv-bg-colour1" target="_blank" href="{{section.cta}}">Veranstaltungen</a></p>
+                <p>{{section.description}} </p>
               </div>
               <div class="col">
                 <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{section.img}}.jpg');"></div>
@@ -60,8 +60,9 @@
                 {% for poi in section.pois.items %}
 
                 <div id="tracking-poi-{{poi.id}}" class="col col--lg-6 col--xxl-4 text--center js-open-modal" data-open-modal="{{poi.id}}">
-                  <div class="pt-highlight-shadow">
-                    <div class="highlight__image bg-img" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg'); background-color: rgba(0,0,0,0.3); background-blend-mode: multiply;"><div class="bv-lineheight--md title text--bold title--xs text--white" style=" padding-bottom:{{poi.pad-bottom}};padding-top:{{poi.pad-top}}; height:30px;">{{poi.title}}</div></div>
+                  <div style="border-bottom:#efefef 2px solid;" >
+                    <div class="highlight__image bg-img" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg'); background-color: rgba(0,0,0,0.3); background-blend-mode: multiply;">
+                      <div class="bv-lineheight text-deco text-deco text--xxxl text--white" style=" padding-bottom:{{poi.pad-bottom}};padding-top:{{poi.pad-top}}; height:30px;">{{poi.title}}</div></div>
                     <div class="bg--white boxpad--lg">
                         {{poi.description-short}}...<br>
                         <div class="space--xxs"></div>
@@ -81,10 +82,24 @@
         </div>
       {% endfor %}
 
+      <div class="harvey harvey--swap bv-bg-colour2"  id="five">
+        <div class="harvey__img" style="background-image: url({{site.img}}/content/bg5.jpg);">
+          <a class="harvey__link" href="#image-link"></a>
+        </div>
+        <div class="harvey__text text--white boxpad--xl">
+          <div class="text-deco text-deco--xxxxl bv-lineheight" style="letter-spacing: -1.5px;">Aktuelle Events in Oman</div>
+          <div class="space--xs"></div>
+          <span class="text text--xl text--normal">In Oman können Sie unterschiedlichste Veranstaltungen in den Bereichen Kultur, Sport und Lifestyle erleben. Mehr erfahren Sie im aktuellen Eventkalender:</span>
+
+          <div class="space--lg"></div>
+          <p> <a class="bv-btn bg--white bv-text-colour2 text--upper" target="_blank" href="https://events.experienceoman.om">Veranstaltungen</a></p>
+        </div>
+      </div>
+
       <!-- Offers section -->
       <div id="offers" class="js-nav-section">
         <div class="space--xxxl"></div>
-        <div class="text-deco text-deco--upper text--center" >Latest Offers</div>
+        <div class="text-deco text-deco--xxxxl text-deco--upper text--center" >Latest Offers</div>
         <div class="space--xxl"></div>
         {% include offer/all-offers.html %}
         <div class="space--xxxl"></div>

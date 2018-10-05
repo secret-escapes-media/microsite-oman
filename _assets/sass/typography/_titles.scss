@@ -30,18 +30,25 @@
 .sub-title {
 
   // custom content headline
-  text-align: left;
-  margin-left: $s2;
+  text-align: center;
+  //margin-left: $s2;
   font-family: $font-title-01;
-  line-height: $s5;
+  margin-top:-$s0;
+  line-height: 1.2;
+  margin-left: 0;
+  color: #fff;
   font-size: $s4; // default size
-  &--lg     { font-size: $s6; }
-  &--sm     { font-size: $s2; }
-  @include bp($lg){
+/*  &--lg     { font-size: $s6; }
+  &--sm     { font-size: $s2; }*/
+  @include bp($xxl){
     font-size: $s5; // default size
-    &--lg     { font-size: $s7; }
-    &--sm     { font-size: $s3; }
-  }
+    text-align: left;
+    line-height: 1;
+    margin-left: $s2;
+
+    /*&--lg     { font-size: $s7; }
+    &--sm     { font-size: $s3;}*/
+    }
 
 }
 
@@ -80,18 +87,30 @@
 
 
 .banner-title {
-text-align: left;
+text-align: center;
   // custom banner headline
-  margin-top: -10vh;
-  margin-bottom: 5vh;
+  margin-top: -$s11;
   font-family: $font-deco-02;
-  //text-transform: uppercase;
-  font-size: $s11;
 
-  @include bp($md){ font-size: $s12;
-  margin-top: -15vh;
-  margin-bottom: 4vh; }
-  @include bp($xl){ font-size: $s13;
-  margin-bottom: 6vh;}
+  color: #fff;
+  //text-transform: uppercase;
+  font-size: 5em;
+
+  @include bp($sm){
+    text-align: center;
+    font-size: 6.2em;
+    line-height: 1;
+    margin-bottom: 6vh;}
+
+  @include bp($md){
+    text-align: center;
+    font-size: 8em;
+    line-height: 1;
+    margin-bottom: 6vh;}
+
+  @include bp($xxl){
+    text-align: left;
+    font-size: 9em;
+    margin-bottom: 6vh;}
 
 }
