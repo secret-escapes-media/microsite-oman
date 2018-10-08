@@ -2,7 +2,7 @@
 
 $site-nav-height:    56px;
 $site-nav-height-sm: 44px;
-$nav-width-bp:       640px;
+$nav-width-bp:       750px;
 $nav-color:         #00a0af;
 
 
@@ -55,7 +55,8 @@ $nav-color:         #00a0af;
   &__scroll-wrap {
     overflow-x: auto;
     overflow-y: hidden;
-    @include bp($nav-width-bp){ overflow: visible; }
+    @include bp($nav-width-bp){ overflow: visible;
+    }
   }
   &__wrap {
     display: flex;
@@ -67,10 +68,10 @@ $nav-color:         #00a0af;
     @include site-nav-height;
     &:after {
       // additional spacing for end of list so content can scroll past the overlaid arrow icon
-      content: '';
+    /*  content: '';
       min-width: $site-nav-height-sm;
       @include bp($md){ min-width: $site-nav-height; }
-      @include bp($nav-width-bp){ display: none; }
+      @include bp($nav-width-bp){ display: none; }*/
     }
   }
   &__item {
