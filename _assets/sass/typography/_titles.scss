@@ -36,6 +36,7 @@
   margin-top:-$s0;
   line-height: 1.2;
   margin-left: 0;
+  font-weight: normal;
   color: #fff;
   font-size: $s4; // default size
 /*  &--lg     { font-size: $s6; }
@@ -44,7 +45,7 @@
     font-size: $s5; // default size
     text-align: left;
     line-height: 1;
-    margin-left: $s2;
+    margin-left: $s1;
 
     /*&--lg     { font-size: $s7; }
     &--sm     { font-size: $s3;}*/
@@ -110,7 +111,7 @@ text-align: center;
 
   @include bp($xxl){
     text-align: left;
-    font-size: 9em;
-    margin-bottom: 6vh;}
+    font-size: 10em;
+    margin-bottom: 5vh;}
 
 }
