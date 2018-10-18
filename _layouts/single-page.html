@@ -48,7 +48,7 @@
                 {% for poi in section.pois.items %}
 
                 <div id="tracking-poi-{{poi.id}}" class="col col--lg-6 col--xxl-4 text--center js-open-modal" data-open-modal="{{poi.id}}">
-                  <div style="border-bottom:#efefef 2px solid;" >
+                  <div class="bv-modal" >
                     <div class="highlight__image bg-img" style="background-image:url('{{site.img}}/content/gallery/{{poi.id}}.jpg'); background-color: rgba(8,48,60,0.4); background-blend-mode: overlay;">
                       <div class="bv-lineheight text-deco text-deco text--xxxl text--white" style=" padding-bottom:{{poi.pad-bottom}};padding-top:{{poi.pad-top}}; height:30px;">{{poi.title}}</div></div>
                     <div class="bg--white boxpad--lg">
@@ -64,7 +64,7 @@
               </div>
           </div>
         </div>
-        
+
       {% endfor %}
 
       <div class="harvey harvey--swap bv-bg-colour3"  id="five">
@@ -77,7 +77,7 @@
           <span class="text text--xl text--normal">In Oman können Sie unterschiedlichste Veranstaltungen in den Bereichen Kultur, Sport und Lifestyle erleben. Mehr erfahren Sie im aktuellen Eventkalender:</span>
 
           <div class="space--lg"></div>
-          <p> <a class="bv-btn bg--white bv-text-colour3 text--upper" target="_blank" href="https://events.experienceoman.om">Veranstaltungen</a></p>
+          <p> <a class="bv-btn bg--white bv-text-colour3 text--upper" target="_blank" href="http://bit.ly/2yJK5xf">Veranstaltungen</a></p>
         </div>
       </div>
 
