@@ -10,7 +10,7 @@ $('a[*|href^="#"]').on('click',function (e) {
     e.preventDefault();
 
 
-        var target = $(this).attr('xlink:href');
+      //  var target = $(this).attr('xlink:href');
         var target = $(this).attr('href');
 
         console.log(e);

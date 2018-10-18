@@ -12,33 +12,26 @@
     {% include page/banner.html %}
 
 
-
-
-
 </div>
 
 
-      <!-- intro -->
+    <!-- intro -->
     <div class=" vpad--xl " >
       <div class="container">
         <div class="width width--xl text--center text--xxl   ">
           <div class="text-deco text-deco--xxxxl text-deco--upper text--center">Zwischen Wüste & Meer</div>
-                      <div class="space--sm "></div>
+          <div class="space--sm "></div>
           <p>Willkommen im Sultanat Oman – einem kulturreichen Land, das auf eine jahrtausendealte Geschichte zurückblickt. Erleben Sie die Kontraste zwischen dem tiefblauen Arabischen Meer und der größten Sandwüste der Welt, zwischen trockenen Flussläufen und saftig grünen Oasen. Besichtigen Sie Paläste und Moscheen in Muscat und genießen Sie an langen Sandstränden in Salalah das Prickeln der warmen Sonne auf Ihrer Haut.</p>
-
-
         </div>
       </div>
     </div>
 
 
     <div class="content-spacing section-spacing" >
-
       <!-- loops through section file for page content -->
       {% for section in site.data.sections %}
         <div id="{{section.id}}" class="{% cycle 'bg--light', 'bg--white' %} js-nav-section vpad--xl " >
           <div class="container">
-
             <div class="row row--valign-center row--gutters-md row--6-6">
               <div class="col">
                 <div class="text-deco text-deco--xxxxl bv-lineheight" style="letter-spacing: -1.5px;">{{section.title}}</div>
@@ -49,12 +42,7 @@
                 <div class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{section.img}}.jpg');"></div>
               </div>
             </div>
-
-
-
-              <div class="space--xl"></div>
-            <!--     <div class="row row--constant-6-6 row--lg-4-4-4 row--xxxl-2-2-2-2-2 row--gutters-sm"> -->
-
+            <div class="space--xl"></div>
             <div class="row row--gutters-md">
 
                 {% for poi in section.pois.items %}
@@ -69,17 +57,14 @@
                         <div class=" text--bold bv-text-colour3">Mehr erfahren</div>
                     </div>
                   </div>
-
               </div>
 
-              <!--  <div class="col">
-                  <div id="tracking-poi-{{poi.id}}" class="js-open-modal bg-img bg-img--3-2" data-open-modal="{{poi.id}}" style="background-image: url('{{site.img}}/img.jpg');"></div>
-                </div> -->
                 {% endfor %}
-              </div>
 
+              </div>
           </div>
         </div>
+        
       {% endfor %}
 
       <div class="harvey harvey--swap bv-bg-colour3"  id="five">
@@ -105,8 +90,6 @@
         <div class="space--xxxl"></div>
         {% include page/promo-offers.html %}
       </div>
-
-
     </div>
 
 
