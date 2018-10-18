@@ -42,14 +42,21 @@
 
 /******** Colours *********/
 
-.bv-bg-colour1{ background-color: #ad004d!important;}
+.bv-bg-colour2{ background-color: $bv-turquoise-dark;
 
-.bv-bg-colour2{ background-color: #330170!important;}
+    &--opacity  { background-color: rgba($bv-turquoise-dark, .8); }
+            }
 
-.bv-text-colour1{ color: #ad004d!important;}
+.bv-bg-colour3{ background-color: $bv-purple!important;
+    &--opacity  { background-color:rgba($bv-purple,.8);
+               }
+            }
+.bv-text-colour2{ color: $bv-turquoise-dark!important;}
 
-.bv-text-colour2{ color: #330170!important;}
-
+.bv-text-colour3{ color: $bv-purple!important;
+    &--md  { line-height: 1.2;
+              padding-bottom: 3px; }
+            }
 
 
 /********* Buttons ************/

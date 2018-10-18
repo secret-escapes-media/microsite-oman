@@ -5,11 +5,19 @@
 //      smooth-scrolling - http://css-tricks.com/snippets/jquery/smooth-scrolling/
 ///////////////////////////////////////
 
-/*
+/**/
 $('a[*|href^="#"]').on('click',function (e) {
     e.preventDefault();
 
-    var target = $(this).attr('xlink:href');
+
+        var target = $(this).attr('xlink:href');
+        var target = $(this).attr('href');
+
+        console.log(e);
+    //  alert(target+target2);
+
+
+
     var $target = $(target);
 
     $('html, body').stop().animate({
@@ -18,4 +26,3 @@ $('a[*|href^="#"]').on('click',function (e) {
       window.location.hash = target;
     });
   });
-*/

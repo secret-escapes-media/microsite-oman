@@ -14,7 +14,7 @@
         <!-- loops through all sections within page -->
         {% for section in site.data.sections %}<span class="site-nav__item">
 
-          <a class="site-nav__link site-nav__link--{{section.id}}" href="#{{section.id}}">
+          <a id="#{{section.id}}" class="site-nav__link site-nav__link--{{section.id}}" href="#{{section.id}}">
             {% if section.nav-title %}
               {{section.nav-title}}
             {% else %}
