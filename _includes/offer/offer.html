@@ -1,13 +1,17 @@
 <div class="offer">
 
-  <a class="offer__link" href="{{offer.link}}"><span class="btn btn--orange">View Offer</span></a>
+  <a class="offer__link" href="{{offer.link}}"><span class="btn" style="background-color:#330270;">Zum Angebot</span></a>
 
-  <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')"></div>
+  <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/offers/{{offer.id}}.jpg')">
+  {% if offer.flight-tag %}
+    <img class="flight-tag" src="{{site.img}}/icons/flights-incl.png" alt="FLÜGE INKLUSIVE">
+  {% endif %}
+</div>
 
-  <div class="offer__content">
+    <div class="offer__content">
 
-    <h3 class="core-title core-title--xs">{{offer.title}}</h3>
-    <h4 class="offer__location">{{offer.location}}</h4>
+    <h3 class="title title--sm">{{offer.title}}</h3>
+    <h4 class="offer" style="color:#330270; font-weight:bold;">{{offer.location}}</h4>
     <div class="offer__description">{{offer.description}}</div>
 
     <div class="offer__bottom">
@@ -16,14 +20,14 @@
 
         {% if offer.saved %}
           <div class="offer__saved">
-            <div class="offer__saved-label">Save up to&nbsp;</div>
-            <div class="offer__saved-percent">{{offer.saved}}%</div>
+          <div class="offer__saved-label">Sparen Sie bis zu</div>
+            <div class="offer__saved-percent" style="background-color:#330270;">{{offer.saved}}%</div>
           </div>
           <div class="offer__separator"></div>
         {% endif %}
 
         <div class="offer__details">
-          <div>From <span class="offer__price">£{{offer.price}}</span></div>
+          <div>From <span class="offer__price" style="color:#330270; ">{{offer.price}}€</span></div>
           <div class="text--sm">{{offer.price-description}}</div>
           <div class="js-offer-expires text--sm" data-expires="{{offer.expires}}"></div>
         </div>
@@ -38,10 +42,3 @@
   </div>
 
 </div>
-
-
-
-
-
-
-

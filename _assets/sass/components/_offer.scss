@@ -4,6 +4,7 @@ $circle-height: 3.4rem; // height for arrow and saved number
 $offer-max-width: 600px;
 
 .offer {
+  font-family: $font-title-01;
   position: relative;
   width: 100%;
   max-width: $offer-max-width;
@@ -87,7 +88,7 @@ $offer-max-width: 600px;
     min-width: $circle-height;
     min-height: $circle-height;
     margin-left: $s-3;
-    border: 1px solid $orange;
+    border: 1px solid $bv-purple;
     border-radius: $circle-height;
     background-repeat: no-repeat;
     background-image: url('../img/icons/arrow-right-orange.svg');
@@ -102,6 +103,7 @@ $offer-max-width: 600px;
       width: $circle-height;
       height: $circle-height;
       margin-left: $s-6;
+      font-size: $s2;
       text-align: center;
       color: #fff;
       font-weight: 600;
