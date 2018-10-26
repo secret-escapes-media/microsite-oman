@@ -18,3 +18,24 @@
   saved: 35
   expires:
   link: http://bit.ly/2yTicTw
+
+- title: Unvergessliche Orient-Träume im Oman
+  id: oman-tour2
+  location: Maskat, Jabel Akdhar, Nizwa, Wahiba, Wadi Bani Khalid, Sur, Wadi Tiwi, Quriyat
+  description: "Inkl. Flügen, Halbpension oder Frühstück, Rail&Fly, Transfers & Extras"
+  price: 2.695
+  price-description: pro Person für 7 Nächte
+  saved:
+  expires:
+  link: http://bit.ly/2D2Y8Tj
+  exclusive-tag: true
+
+- title: Oman – Strandauszeit im Orient
+  id: millennium-resort
+  location: Millennium Resort Mussanah, Oman
+  description: "Stilvoller Badeurlaub westlich von Maskat – inkl. Vollpension, Flughafentransfers & Extras"
+  price: 79
+  price-description: pro Person - basierend auf 2 Personen
+  saved: 66
+  expires:
+  link: http://bit.ly/2O9bTk7

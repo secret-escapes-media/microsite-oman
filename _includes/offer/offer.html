@@ -6,12 +6,17 @@
   {% if offer.flight-tag %}
     <img class="flight-tag" src="{{site.img}}/icons/flights-incl.png" alt="FLÜGE INKLUSIVE">
   {% endif %}
+  {% if offer.exclusive-tag %}
+    <img class="flight-tag" src="{{site.img}}/icons/exclusive.png" alt="Exklusives Angebot">
+  {% endif %}
 </div>
 
     <div class="offer__content">
 
-    <h3 class="title title--sm">{{offer.title}}</h3>
-    <h4 class="offer" style="color:#330270; font-weight:bold;">{{offer.location}}</h4>
+    <h3 class="title title--sm" style="line-height: 1.2em;">{{offer.title}}</h3>
+    <div class="space--sm"></div>
+    <h4 class="offer text--xl" style="color:#330270; line-height: 1.2em; font-weight:bold;">{{offer.location}}</h4>
+    <div class="space--sm"></div>
     <div class="offer__description">{{offer.description}}</div>
 
     <div class="offer__bottom">
@@ -27,7 +32,7 @@
         {% endif %}
 
         <div class="offer__details">
-          <div>From <span class="offer__price" style="color:#330270; ">{{offer.price}}€</span></div>
+          <div>Ab <span class="offer__price text--xxl" style="color:#330270; ">{{offer.price}}€</span></div>
           <div class="text--sm">{{offer.price-description}}</div>
           <div class="js-offer-expires text--sm" data-expires="{{offer.expires}}"></div>
         </div>
